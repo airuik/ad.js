@@ -64,6 +64,7 @@ function FindProxyForURL(url, host){
 "ckm.iqiyi.com",
 "msg.71.am",
 "pingma.qq.com",
+"397c0.admaster.com.cn",
 //<google>
 "2mdn.net",
 "admob.com",
@@ -137,6 +138,7 @@ function FindProxyForURL(url, host){
 "101.227.14.84",
 "101.227.14.85",
 "101.227.14.86",
+"101.227.14.128",
 "101.227.200.11",
 //=========IP地址End=========
 //【在分界线上面可以追加IP地址，两边加上双引号，使用逗号分隔。】
