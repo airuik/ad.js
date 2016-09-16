@@ -66,7 +66,7 @@ function FindProxyForURL(url, host){
 "pingma.qq.com",
 "397c0.admaster.com.cn",
 "tyaqy.m.cn.miaozhen.com",
-"m.ir01.com",
+"m.irs01.com",
 "t7z.cupid.iqiyi.com",
 //<google>
 "2mdn.net",
