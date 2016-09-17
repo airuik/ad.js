@@ -134,8 +134,7 @@ function FindProxyForURL(url, host){
     var ips = [
 //=========IP地址Start=========
 //<iqiyi>
-"101.227.14.0",
-"101.227.200.1"
+"101.227.1.0"
 //=========IP地址End=========
 //【在分界线上面可以追加IP地址，两边加上双引号，使用逗号分隔。】
     ]
@@ -384,7 +383,7 @@ function FindProxyForURL(url, host){
         }
     }
     for (var n = 0; n < ips.length; n++){
-        if (isInNet(host, ips[n], "255.255.255.0")){
+        if (isInNet(host, ips[n], "255.255.0.0")){
             return IS_AD;
         }
     }
