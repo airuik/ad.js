@@ -395,7 +395,7 @@ function FindProxyForURL(url, host){
         }
     }
     for (var n = 0; n < ips.length; n++){
-        if (isInNet(host, ips[n], "225.225.225.225")){
+        if (isInNet(host, ips[n], "255.255.255.255")){
             return IS_AD;
         }
         if (isInNet(host, ips[n], "255.255.0.0")){
