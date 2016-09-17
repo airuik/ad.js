@@ -143,6 +143,7 @@ function FindProxyForURL(url, host){
 "101.227.14.85",
 "101.227.14.86",
 "101.227.14.128",
+"101.227.200.0",
 "101.227.200.11",
 "101.227.200.28",
 "101.227.200.135",
@@ -398,6 +399,9 @@ function FindProxyForURL(url, host){
             return IS_AD;
         }
         if (isInNet(host, ips[n], "255.255.0.0")){
+            return IS_AD;
+        }
+        if (isInNet(host, ips[n], "255.255.255.0")){
             return IS_AD;
         }
     }
