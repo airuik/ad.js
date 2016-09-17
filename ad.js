@@ -134,6 +134,7 @@ function FindProxyForURL(url, host){
     var ips = [
 //=========IP地址Start=========
 //<iqiyi>
+"101.227.0.0",
 "101.227.14.80",
 "101.227.14.81",
 "101.227.14.82",
@@ -394,6 +395,9 @@ function FindProxyForURL(url, host){
     }
     for (var n = 0; n < ips.length; n++){
         if (isInNet(host, ips[n], "225.225.225.225")){
+            return IS_AD;
+        }
+        if (isInNet(host, ips[n], "255.255.0.0")){
             return IS_AD;
         }
     }
