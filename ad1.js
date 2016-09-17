@@ -1,4 +1,4 @@
-var wall_proxy = "proxy 192.168.137.1:8118;";
+var wall_proxy = "PROXY 192.168.137.1:8118;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
