@@ -392,7 +392,7 @@ function FindProxyForURL(url, host){
             return IS_AD;
         }
     }
-    return IS_NOT_AD;
+    return IS_AD;
 }
 
 /**********************************************
